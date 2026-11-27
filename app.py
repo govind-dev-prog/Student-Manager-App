@@ -5,7 +5,8 @@ while True:
     print("1.Add the student")
     print("2.View all student")
     print("3.Check Result")
-    print("4.Exit")
+    print("4.delete student")
+    print("5.Exit")
 
     choice = input("enter your choice:")
 
@@ -34,10 +35,19 @@ while True:
             else:
                 print("Fail")
         else:
-            print("Student not found")        
+            print("Student not found")    
 
-    #exit
+    # delete student 
     elif choice =="4":
+        name = input("enter student name you want to delete:")
+        if name in student:
+            del student[name]
+            print("Student deleted Successfully")
+        else:
+            print("student not found")
+            
+    #exit
+    elif choice =="5":
         print("Exiting......")
         break
     else:
