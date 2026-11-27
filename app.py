@@ -1,4 +1,9 @@
-student={}
+student={
+    "govind":86,
+    "radha":100,
+    "krishna":100,
+    "anjali":78
+}
 
 while True:
     print("\n......Student Manager App.....")
