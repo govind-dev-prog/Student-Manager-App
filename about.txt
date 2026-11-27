@@ -1,0 +1,11 @@
+we using ;
+conditional statement
+loops
+dictionary
+
+project:
+teacher-
+1. add student
+2.view student
+3.check result
+4.exit
