@@ -8,4 +8,5 @@ teacher-
 1. add student
 2.view student
 3.check result
-4.exit
+4.delete student
+5.exit

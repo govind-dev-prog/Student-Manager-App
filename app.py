@@ -2,7 +2,11 @@ student={
     "govind":86,
     "radha":100,
     "krishna":100,
-    "anjali":78
+    "anjali":78,
+    "madhav":87,
+    "shyam":99,
+    "rama":100,
+    "sita":95
 }
 
 while True:
